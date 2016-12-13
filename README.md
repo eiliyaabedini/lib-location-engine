@@ -19,7 +19,7 @@ and:
 
 ```gradle
 dependencies {
-    compile 'com.github.jitpack:android-example:{latest version}'
+    compile 'com.github.eiliyaabedini:lib-location-engine:master-SNAPSHOT'
 }
 ```
 
