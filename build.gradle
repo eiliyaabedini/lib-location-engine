@@ -1,14 +1,7 @@
-buildscript {
-    repositories {
-        jcenter()
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:2.2.0'
-        classpath 'com.google.gms:google-services:3.0.0'
-    }
-}
-
 apply plugin: 'com.android.library'
+// Required plugin in library module
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.eiliyaabedini'
 
 android {
     compileSdkVersion 24
